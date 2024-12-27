@@ -72,8 +72,13 @@ class Cli {
         if (answers.vehicleType === 'Car') {
           // create a car
           this.createCar();
-        }
+        }//if
         // TODO: add statements to create a truck or motorbike if the user selects the respective vehicle type
+        if (answers.vehicleType === 'Truck') {
+          this.createTruck();
+        } else if (answers.vehicleType === 'Motorbike') {
+          this.createMotorbike();
+        }
       });
   }
 
@@ -179,7 +184,7 @@ class Cli {
         // TODO: set the selectedVehicleVin to the vin of the truck
         // TODO: perform actions on the truck
 
-        this.createTruck.push(Car);
+        
 
       });
   }
