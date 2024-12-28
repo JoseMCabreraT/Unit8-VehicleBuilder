@@ -2,6 +2,9 @@
 
 ## Description
 
+I built a TypeScript command-line application where the users are able to either create a new vehicle, or select an existing one.
+The users can create a new vehicle, which can be a car, a truck, or a motorbike. Each of these have their specifications, such as VIN, color, make,
+model, year, weight, top speed, the number of wheels, and wheels diameter.
 
 
 Link to the walkthrough video of the app:
