@@ -2,12 +2,15 @@
 
 ## Description
 
-I built a TypeScript command-line application where the users are able to either create a new vehicle, or select an existing one.
-The users can create a new vehicle, which can be a car, a truck, or a motorbike. Each of these have their specifications, such as VIN, color, make,
-model, year, weight, top speed, the number of wheels, and wheels diameter.
+I built a TypeScript command-line application where the users are able to either create a new vehicle, or select an existing one. The application can be initialized by running the
+command npm start. The users can create a new vehicle, which can be a car, a truck, or a motorbike. Each of these have their specifications, such as VIN, color, make,
+model, year, weight, top speed, the number of wheels, and wheels diameter. When the users seelect to create a new vehicle, they are able to enter
+all the required specifications. After that, there is a list of actions that can be performed by the new created vehicle, such as start vehicle, stop it,
+turn right or left, accelerate or deaccelerate, as well as other actions that can be performed only by specific vehicles, like wheelies (motorbikes), and tow (trucks).
+Also, the user can view a list of existing vehicles, and perform actions with them. After the actions, there are options to either create a new vehicle, select an existing one, or exit the application.
 
 
-Link to the walkthrough video of the app:
+Link to the walkthrough video of the app: https://drive.google.com/file/d/1z-ujZ8mzHhJ9ddDr3he5cdczLwROPS7v/view?usp=sharing
 
 ## Table of Contents
 
